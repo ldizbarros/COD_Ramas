@@ -6,6 +6,7 @@ public class COD_EJ {
 
     public static void main(String[] args) {
         
+        System.out.println("BIENVENIDO A LA VERSION 1.0");
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Introduzca o nome da primeira persoa:");
@@ -25,7 +26,6 @@ public class COD_EJ {
             System.out.println("Nome: "+nome2+" Peso: "+peso2);
             System.out.println("DIferencia: "+(peso2-peso1));
         }
-        System.out.println("hola caracola");
     }
     
 }
