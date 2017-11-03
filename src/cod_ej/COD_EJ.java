@@ -1,23 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package cod_ej;
 
 import java.util.Scanner;
 
-/**
- *
- * @author ldizbarros
- */
 public class COD_EJ {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Introduzca o nome da primeira persoa:");
@@ -37,6 +25,7 @@ public class COD_EJ {
             System.out.println("Nome: "+nome2+" Peso: "+peso2);
             System.out.println("DIferencia: "+(peso2-peso1));
         }
+        System.out.println("hola caracola");
     }
     
 }
